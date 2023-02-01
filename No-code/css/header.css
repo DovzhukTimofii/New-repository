@@ -1,0 +1,90 @@
+.haeder {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 18px;
+}
+
+.positionfor_Sing_in{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 206px;
+}
+
+.positionFor_what_students_say {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 21%;
+    max-width: 324px;
+}
+
+.buttonInHeade {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: linear-gradient(44.11deg, #CD10FF 15.75%, #9F06FF 84.63%);
+    border-radius: 33px;
+    border: none;
+    color: white;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    width: 147px;
+    height: 50px;
+}
+.buttonInHeade:hover {
+    background: linear-gradient(44.11deg,rgb(0, 26, 73) 15.75%,rgb(3, 41, 110) 84.63%);
+    background-color: #001A49;
+    color: rgb(146, 146, 146);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    transition: 15s;
+}
+
+.sing_in {
+    color: rgb(0, 26, 73);
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    cursor: pointer;
+    width: 137px;
+}
+
+.sing_in:hover {
+    color: #CD10FF;
+}
+
+.what_students_say {
+    color: rgb(0, 26, 73);
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.what_students_say:hover {
+    color: #CD10FF;
+}
+
+.course_topics {
+    color: #001A49;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.course_topics:hover {
+    color: #CD10FF;
+}
+
+.logo {
+    cursor: pointer;
+}
